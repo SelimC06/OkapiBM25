@@ -7,10 +7,11 @@
 ![Lines](https://img.shields.io/badge/lines-100%25-brightgreen.svg)
 
 
-A strongly typed, well-tested implementation of the Okapi BM25 algorithm. Just provide your documents to search, query keywords, and (optionally) your weights (*b* and *k1*).
+A strongly typed, tested, and profiled implementation of the [Okapi BM25 algorithm](https://en.wikipedia.org/wiki/Okapi_BM25). Just provide your documents to search, query keywords, and (optionally) your weights (*b* and *k1*). 
+
+Install the [NPM package!](https://www.npmjs.com/package/okapibm25)
 
 ## Installation
-Check out the [NPM package.](https://www.npmjs.com/package/okapibm25)
 ```
 npm install okapibm25 --save
 ```
@@ -48,11 +49,11 @@ I've purposely given a schema that lets you sort results by more than just score
 
 *Important:* Note that enabling sorting changes the return type from `number[]` to `{ document: string; score: number; }[]`
 
-## What's this?
-An implementation of OkapiBM25 (AKA BM25), a [bag-of-words](https://en.wikipedia.org/wiki/Bag-of-words_model) information retrieval algorithm. [Read up on it here](https://en.wikipedia.org/wiki/Okapi_BM25).
-
 ## License
 Under `license.md`
 
 ## Contributing
 Submit a Pull Request if you have a useful feature that you'd like to add. If you're too lazy or this isn't your area of expertise, open an issue and I'll get to it.
+
+## Sponsorship
+Consider donating $5 to https://www.unicef.org/ if this has been useful to you.
